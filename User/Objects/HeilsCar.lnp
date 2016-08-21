@@ -8,6 +8,7 @@
 "..\user\objects\_pathpoint.o"
 "..\user\objects\_goroute.o"
 "..\user\objects\_lcdio.o"
+"..\user\objects\_serial.o"
 "..\user\objects\_24cxx.o"
 "..\user\objects\_can.o"
 "..\user\objects\_can_database.o"

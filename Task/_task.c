@@ -36,6 +36,8 @@
 #include "_keep.h"
 #include "stm32f10x_it.h"
 #include "../Algorithm/_math.h"
+#include "_serial.h"
+
 
 void Load_Drow_Dialog(void)
 {
@@ -81,6 +83,7 @@ u8 testflag1 = 0;
 u8 testflag2 = 0;
 u8 testflag3 = 0;
 	u8 PS2_key;
+char SdTPC[64] = {0};
 void ManualTask(void *para)
 {	 	
 	Ultrasonic[0].ClcUtralData(0);
@@ -89,14 +92,17 @@ void ManualTask(void *para)
  	Ultrasonic[3].ClcUtralData(3);
 	while(1)
 	{
- 		USART_SendData(USART1, 0x55);
- 		USART_SendData(USART2, 0x55);
- 		USART_SendData(USART3, 0x55);
+// 		USART_SendData(USART1, 0x55);
+// 		USART_SendData(USART2, 0x55);
+// 		USART_SendData(USART3, 0x55);
   	PS2_key=PS2_DataKey();
+    sprintf(SdTPC, "(%d,%d,%d,%d,1)\n\t", (int)GPS.position.x, (int)GPS.position.y, (int)GPS.radian, 100);
+    Com_Puts(1, SdTPC);
+    SdTPC[0] = 0;
 //		Speed_X = (Data[5] - 0x80)* 20;
 //		Speed_Y = (0x80 - Data[6])* 20;
 		SetSpeed(Speed_X,Speed_Y,Speed_Rotation);
- 		delay_ms(10);
+ 		
  		Ultrasonic[0].UtralMea(0);
 		Ultrasonic[0].Ultrafilter(0);
  		Ultrasonic[1].UtralMea(1);
@@ -105,6 +111,7 @@ void ManualTask(void *para)
 		Ultrasonic[2].Ultrafilter(2);
  		Ultrasonic[3].UtralMea(3);
 		Ultrasonic[3].Ultrafilter(3);
+		delay_ms(10);
 	};
 }
 

@@ -3,58 +3,244 @@
 <pre>
 <h1>礦ision Build Log</h1>
 <h2>Project:</h2>
-C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\HeilsCar.uvproj
-Project File Date:  08/07/2016
+E:\HeilsCar\Start\HeilsCar.uvproj
+Project File Date:  08/14/2016
 
 <h2>Output:</h2>
 Build target 'HeilsCar'
-compiling _task.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(127): warning:  #1-D: last line of file ends without a newline
 linking...
-..\User\Objects\HeilsCar.axf: Error: L6218E: Undefined symbol LCD_Clear (referred from _lcd.o).
-..\User\Objects\HeilsCar.axf: Error: L6218E: Undefined symbol Draw_Circle (referred from _touch.o).
-..\User\Objects\HeilsCar.axf: Error: L6218E: Undefined symbol LCD_DrawLine (referred from _touch.o).
-..\User\Objects\HeilsCar.axf: Error: L6218E: Undefined symbol LCD_ShowNum (referred from _touch.o).
-..\User\Objects\HeilsCar.axf: Error: L6218E: Undefined symbol LCD_ShowString (referred from _touch.o).
-"..\User\Objects\HeilsCar.axf" - 5 Errors, 2 Warning(s).
-Target not created
-Build target 'HeilsCar'
-linking...
-Program Size: Code=67260 RO-data=4144 RW-data=2244 ZI-data=4932  
+Program Size: Code=70640 RO-data=4436 RW-data=2380 ZI-data=4940  
 FromELF: creating hex file...
 "..\User\Objects\HeilsCar.axf" - 0 Errors, 0 Warning(s).
 Build target 'HeilsCar'
-compiling _lcdio.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+compiling _serial.c...
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
 linking...
-..\User\Objects\HeilsCar.axf: Error: L6218E: Undefined symbol LCD_WriteInt (referred from _lcdio.o).
-"..\User\Objects\HeilsCar.axf" - 1 Errors, 1 Warning(s).
-Target not created
-Build target 'HeilsCar'
-compiling _lcdio.c...
-..\Algorithm\_lcdio.h(27): warning:  #1-D: last line of file ends without a newline
-compiling _task.c...
-..\Algorithm\_lcdio.h(27): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(127): warning:  #1-D: last line of file ends without a newline
-compiling main.c...
-..\Algorithm\_lcdio.h(27): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=67268 RO-data=4144 RW-data=2244 ZI-data=4932  
+Program Size: Code=70636 RO-data=4432 RW-data=2380 ZI-data=4940  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 4 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 2 Warning(s).
 Build target 'HeilsCar'
-compiling _lcdio.c...
-..\Algorithm\_lcdio.h(27): warning:  #1-D: last line of file ends without a newline
-compiling _task.c...
-..\Algorithm\_lcdio.h(27): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(128): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=67284 RO-data=4144 RW-data=2244 ZI-data=4932  
+Program Size: Code=70636 RO-data=4432 RW-data=2380 ZI-data=4940  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 0 Warning(s).
+Build target 'HeilsCar'
+compiling _serial.c...
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+compiling _task.c...
+..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(93): warning:  #181-D: argument is incompatible with corresponding format string conversion
+..\Task\_task.c(169): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=71756 RO-data=4440 RW-data=2380 ZI-data=4940  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 8 Warning(s).
+Build target 'HeilsCar'
+compiling _task.c...
+..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(169): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=71760 RO-data=4444 RW-data=2380 ZI-data=4940  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
+Build target 'HeilsCar'
+linking...
+Program Size: Code=71760 RO-data=4444 RW-data=2380 ZI-data=4940  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 0 Warning(s).
+Load "..\\User\\Objects\\HeilsCar.axf" 
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'HeilsCar'
+compiling _task.c...
+..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(169): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=71668 RO-data=4440 RW-data=2380 ZI-data=4940  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
+Load "..\\User\\Objects\\HeilsCar.axf" 
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'HeilsCar'
+compiling _task.c...
+..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(169): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=68356 RO-data=4152 RW-data=2292 ZI-data=4940  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
+Load "..\\User\\Objects\\HeilsCar.axf" 
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'HeilsCar'
+compiling _task.c...
+..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(90): warning:  #550-D: variable "SdTPC" was set but never used
+..\Task\_task.c(169): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=67384 RO-data=4140 RW-data=2292 ZI-data=4940  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 6 Warning(s).
+Load "..\\User\\Objects\\HeilsCar.axf" 
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'HeilsCar'
+compiling _task.c...
+..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(165): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=70636 RO-data=4432 RW-data=2380 ZI-data=4940  
 FromELF: creating hex file...
 "..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -89,198 +275,21 @@ Programming Done.
 Verify OK.
 Application running ...
 Build target 'HeilsCar'
-compiling _task.c...
-..\Algorithm\_lcdio.h(27): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(128): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=67288 RO-data=4140 RW-data=2244 ZI-data=4932  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 2 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Build target 'HeilsCar'
-compiling _lcd.c...
-linking...
-Program Size: Code=67288 RO-data=4140 RW-data=2244 ZI-data=4932  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 0 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Build target 'HeilsCar'
-compiling _lcdio.c...
-..\Algorithm\_lcdio.h(27): warning:  #1-D: last line of file ends without a newline
-compiling _lcd.c...
-linking...
-Program Size: Code=67304 RO-data=4140 RW-data=2244 ZI-data=4932  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 1 Warning(s).
-Build target 'HeilsCar'
-compiling _task.c...
-..\Algorithm\_lcdio.h(27): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(129): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=67312 RO-data=4140 RW-data=2244 ZI-data=4932  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 2 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Build target 'HeilsCar'
-compiling _task.c...
-..\Algorithm\_lcdio.h(27): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(129): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=67312 RO-data=4140 RW-data=2244 ZI-data=4932  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 2 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Build target 'HeilsCar'
-compiling _lcdio.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-compiling _lcd.c...
+compiling _serial.c...
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(129): warning:  #1-D: last line of file ends without a newline
-compiling main.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(169): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=67304 RO-data=4140 RW-data=2244 ZI-data=4932  
+Program Size: Code=71752 RO-data=4436 RW-data=2380 ZI-data=4940  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 4 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 7 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -317,13 +326,255 @@ Application running ...
 Build target 'HeilsCar'
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(130): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(90): warning:  #550-D: variable "SdTPC" was set but never used
+..\Task\_task.c(169): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=67312 RO-data=4140 RW-data=2244 ZI-data=4932  
+Program Size: Code=70696 RO-data=4428 RW-data=2380 ZI-data=4940  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 2 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 6 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'HeilsCar'
+compiling _task.c...
+..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(90): warning:  #550-D: variable "SdTPC" was set but never used
+..\Task\_task.c(170): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=70696 RO-data=4428 RW-data=2380 ZI-data=4940  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 6 Warning(s).
+Load "..\\User\\Objects\\HeilsCar.axf" 
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'HeilsCar'
+compiling _task.c...
+..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(90): warning:  #550-D: variable "SdTPC" was set but never used
+..\Task\_task.c(170): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=70732 RO-data=4432 RW-data=2380 ZI-data=4940  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 6 Warning(s).
+Load "..\\User\\Objects\\HeilsCar.axf" 
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'HeilsCar'
+compiling _task.c...
+..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(90): warning:  #177-D: variable "SdTPC" was declared but never referenced
+..\Task\_task.c(170): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=70724 RO-data=4432 RW-data=2380 ZI-data=4940  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 6 Warning(s).
+Load "..\\User\\Objects\\HeilsCar.axf" 
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'HeilsCar'
+compiling _task.c...
+..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(165): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=70636 RO-data=4432 RW-data=2380 ZI-data=4940  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
+Build target 'HeilsCar'
+compiling _task.c...
+..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(166): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=70636 RO-data=4432 RW-data=2380 ZI-data=4940  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
+Load "..\\User\\Objects\\HeilsCar.axf" 
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'HeilsCar'
+compiling _task.c...
+..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(167): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=70600 RO-data=4428 RW-data=2380 ZI-data=4940  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
+Load "..\\User\\Objects\\HeilsCar.axf" 
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -354,36 +605,23 @@ Watchpoints:          4
 JTAG speed: 2000 kHz
  
 ***JLink Error: Can not read register 0 (R0) while CPU is running
-***JLink Error: Can not read register 1 (R1) while CPU is running
 Erase Done.
 Programming Done.
 Verify OK.
 Application running ...
 Build target 'HeilsCar'
-compiling _lcdio.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=67320 RO-data=4140 RW-data=2244 ZI-data=4932  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 1 Warning(s).
-Build target 'HeilsCar'
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(130): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(172): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=67312 RO-data=4140 RW-data=2244 ZI-data=4932  
+Program Size: Code=71668 RO-data=4432 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 2 Warning(s).
-Build target 'HeilsCar'
-compiling _task.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(132): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=67336 RO-data=4140 RW-data=2244 ZI-data=4932  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 2 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -420,13 +658,16 @@ Application running ...
 Build target 'HeilsCar'
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(132): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(172): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=67336 RO-data=4140 RW-data=2244 ZI-data=4932  
+Program Size: Code=70608 RO-data=4428 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 2 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -461,484 +702,263 @@ Programming Done.
 Verify OK.
 Application running ...
 Build target 'HeilsCar'
-compiling _math.c...
-compiling _mecanum.c...
-compiling _pid.c...
-compiling _goline.c...
-compiling _gopath.c...
-..\Algorithm\../Algorithm/_pathpoint.h(5): warning:  #1-D: last line of file ends without a newline
-compiling _keep.c...
-compiling _pathpoint.c...
-..\Algorithm\_pathpoint.c(350): warning:  #1-D: last line of file ends without a newline
-compiling _goroute.c...
-..\Algorithm\../Algorithm/_pathpoint.h(5): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\../Algorithm/_gopath.h(9): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_goroute.c(31): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_goroute.c(15): warning:  #177-D: variable "i" was declared but never referenced
-compiling _io_status.c...
-compiling _pwm.c...
-compiling _uart.c...
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(130): warning:  #1-D: last line of file ends without a newline
-compiling main.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-compiling stm32f10x_it.c...
-..\User\stm32f10x_it.c(227): warning:  #550-D: variable "rec_buf" was set but never used
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(172): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=67312 RO-data=4140 RW-data=2244 ZI-data=4932  
+Program Size: Code=71572 RO-data=4432 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 10 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
+Load "..\\User\\Objects\\HeilsCar.axf" 
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
 Build target 'HeilsCar'
-compiling _lcdio.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(127): error:  #167: argument of type "union fl32_to_u8" is incompatible with parameter of type "float"
-..\Task\_task.c(130): warning:  #1-D: last line of file ends without a newline
-compiling main.c...
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(172): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=70748 RO-data=4432 RW-data=2380 ZI-data=5004  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
+Build target 'HeilsCar'
+linking...
+Program Size: Code=70748 RO-data=4432 RW-data=2380 ZI-data=5004  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 0 Warning(s).
+Load "..\\User\\Objects\\HeilsCar.axf" 
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'HeilsCar'
+compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(173): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=70664 RO-data=4428 RW-data=2380 ZI-data=5004  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
+Load "..\\User\\Objects\\HeilsCar.axf" 
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+***JLink Error: Can not read register 0 (R0) while CPU is running
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'HeilsCar'
+compiling _task.c...
+..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(173): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=70676 RO-data=4432 RW-data=2380 ZI-data=5004  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
+Load "..\\User\\Objects\\HeilsCar.axf" 
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'HeilsCar'
+compiling _task.c...
+..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(173): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=70676 RO-data=4432 RW-data=2380 ZI-data=5004  
+FromELF: creating hex file...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
+Load "..\\User\\Objects\\HeilsCar.axf" 
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'HeilsCar'
+compiling _task.c...
+..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(40): error:  #5: cannot open source input file "stm32f10x_lib.h": No such file or directory
 "..\User\Objects\HeilsCar.axf" - 1 Errors, 4 Warning(s).
 Target not created
 Build target 'HeilsCar'
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(130): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=67176 RO-data=4140 RW-data=2244 ZI-data=4932  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 2 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Build target 'HeilsCar'
-compiling _task.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(132): warning:  #1-D: last line of file ends without a newline
-compiling stm32f10x_it.c...
-..\User\stm32f10x_it.c(230): warning:  #550-D: variable "rec_buf" was set but never used
-linking...
-Program Size: Code=67216 RO-data=4140 RW-data=2244 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Build target 'HeilsCar'
-compiling _task.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(137): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=67304 RO-data=4140 RW-data=2244 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 2 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: STM32F1xxx: Can not attach to CPU. Trying connect under reset.
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Build target 'HeilsCar'
-compiling _task.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(137): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=67304 RO-data=4140 RW-data=2244 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 2 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Build target 'HeilsCar'
-compiling _task.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(137): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=67288 RO-data=4140 RW-data=2244 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 2 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Build target 'HeilsCar'
-compiling _task.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(137): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=67268 RO-data=4144 RW-data=2244 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 2 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Build target 'HeilsCar'
-compiling _task.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(137): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=67268 RO-data=4144 RW-data=2244 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 2 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Build target 'HeilsCar'
-compiling _keep.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
 ..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_keep.c(109): warning:  #1-D: last line of file ends without a newline
-compiling _task.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(141): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(173): warning:  #1-D: last line of file ends without a newline
 linking...
-..\User\Objects\HeilsCar.axf: Error: L6218E: Undefined symbol LCD_SetXY (referred from _keep.o).
-"..\User\Objects\HeilsCar.axf" - 1 Errors, 6 Warning(s).
-Target not created
-Build target 'HeilsCar'
-compiling _keep.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_keep.c(109): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=70176 RO-data=4436 RW-data=2300 ZI-data=4940  
+Program Size: Code=70684 RO-data=4432 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
-Build target 'HeilsCar'
-compiling _keep.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_keep.c(109): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=70176 RO-data=4436 RW-data=2300 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
-Build target 'HeilsCar'
-compiling _keep.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_keep.c(109): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=70176 RO-data=4436 RW-data=2300 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
-Build target 'HeilsCar'
-compiling _pid.c...
-linking...
-Program Size: Code=70176 RO-data=4436 RW-data=2348 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 0 Warning(s).
-Build target 'HeilsCar'
-compiling _task.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(138): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=70188 RO-data=4440 RW-data=2348 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
-Build target 'HeilsCar'
-compiling _keep.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_keep.c(109): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=70188 RO-data=4440 RW-data=2348 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: STM32F1xxx: Can not attach to CPU. Trying connect under reset.
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Build target 'HeilsCar'
-compiling _keep.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_keep.c(109): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=70188 RO-data=4440 RW-data=2348 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -976,13 +996,15 @@ Build target 'HeilsCar'
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
 ..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(138): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(173): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=67248 RO-data=4140 RW-data=2292 ZI-data=4940  
+Program Size: Code=70680 RO-data=4428 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -1020,13 +1042,15 @@ Build target 'HeilsCar'
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
 ..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(138): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(173): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=67220 RO-data=4144 RW-data=2292 ZI-data=4940  
+Program Size: Code=70668 RO-data=4432 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -1064,31 +1088,16 @@ Build target 'HeilsCar'
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
 ..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(138): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(100): warning:  #181-D: argument is incompatible with corresponding format string conversion
+..\Task\_task.c(173): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=70188 RO-data=4440 RW-data=2348 ZI-data=4940  
+Program Size: Code=70668 RO-data=4432 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 6 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: STM32F1xxx: Can not attach to CPU. Trying connect under reset.
-Build target 'HeilsCar'
-linking...
-Program Size: Code=70188 RO-data=4440 RW-data=2348 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 0 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -1126,13 +1135,15 @@ Build target 'HeilsCar'
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
 ..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(138): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(173): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=70192 RO-data=4436 RW-data=2348 ZI-data=4940  
+Program Size: Code=70672 RO-data=4428 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -1170,14 +1181,15 @@ Build target 'HeilsCar'
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
 ..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(111): warning:  #177-D: variable "iCount" was declared but never referenced
-..\Task\_task.c(138): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(172): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=67244 RO-data=4144 RW-data=2292 ZI-data=4940  
+Program Size: Code=71644 RO-data=4432 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 4 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -1215,13 +1227,15 @@ Build target 'HeilsCar'
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
 ..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(164): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(172): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=70508 RO-data=4440 RW-data=2380 ZI-data=4940  
+Program Size: Code=71644 RO-data=4432 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -1259,13 +1273,15 @@ Build target 'HeilsCar'
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
 ..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(164): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(172): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=70416 RO-data=4436 RW-data=2380 ZI-data=4940  
+Program Size: Code=71652 RO-data=4432 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -1303,13 +1319,15 @@ Build target 'HeilsCar'
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
 ..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(165): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(172): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=70416 RO-data=4436 RW-data=2380 ZI-data=4940  
+Program Size: Code=71644 RO-data=4432 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -1347,15 +1365,15 @@ Build target 'HeilsCar'
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
 ..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(165): warning:  #1-D: last line of file ends without a newline
-compiling main.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(172): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=70176 RO-data=4436 RW-data=2380 ZI-data=4940  
+Program Size: Code=71644 RO-data=4432 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 4 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -1393,13 +1411,15 @@ Build target 'HeilsCar'
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
 ..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(165): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(172): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=70148 RO-data=4440 RW-data=2380 ZI-data=4940  
+Program Size: Code=71644 RO-data=4432 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -1433,278 +1453,41 @@ Erase Done.
 Programming Done.
 Verify OK.
 Application running ...
-Build target 'HeilsCar'
-compiling main.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=70148 RO-data=4440 RW-data=2380 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 1 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Build target 'HeilsCar'
-compiling main.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=70148 RO-data=4440 RW-data=2380 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 1 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Build target 'HeilsCar'
-compiling _mecanum.c...
-linking...
-Program Size: Code=70148 RO-data=4440 RW-data=2380 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 0 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Build target 'HeilsCar'
-compiling main.c...
-..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
-linking...
-Program Size: Code=70148 RO-data=4440 RW-data=2380 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 1 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Build target 'HeilsCar'
-compiling _pid.c...
-linking...
-Program Size: Code=70148 RO-data=4440 RW-data=2380 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 0 Warning(s).
 Build target 'HeilsCar'
 compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
 ..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Task\_task.c(165): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(172): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=70428 RO-data=4440 RW-data=2380 ZI-data=4940  
+Program Size: Code=71640 RO-data=4436 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
 Build target 'HeilsCar'
-compiling _keep.c...
+compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
 ..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_keep.c(115): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(172): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=70480 RO-data=4436 RW-data=2380 ZI-data=4940  
+Program Size: Code=71644 RO-data=4432 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
 Build target 'HeilsCar'
-compiling _keep.c...
+compiling _task.c...
 ..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
 ..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
-..\Algorithm\_keep.c(121): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(172): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=70556 RO-data=4440 RW-data=2380 ZI-data=4940  
+Program Size: Code=71644 RO-data=4432 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 3 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:
@@ -1739,54 +1522,18 @@ Programming Done.
 Verify OK.
 Application running ...
 Build target 'HeilsCar'
-compiling stm32f10x_it.c...
-..\User\stm32f10x_it.c(230): warning:  #550-D: variable "rec_buf" was set but never used
+compiling _task.c...
+..\Algorithm\_lcdio.h(28): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_keep.h(8): warning:  #1-D: last line of file ends without a newline
+..\Algorithm\_serial.h(23): warning:  #1295-D: Deprecated declaration SerialCreate - give arg types
+..\Algorithm\_serial.h(25): warning:  #1-D: last line of file ends without a newline
+..\Task\_task.c(172): warning:  #1-D: last line of file ends without a newline
 linking...
-Program Size: Code=70640 RO-data=4436 RW-data=2380 ZI-data=4940  
+Program Size: Code=71644 RO-data=4432 RW-data=2380 ZI-data=5004  
 FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 1 Warning(s).
-Build target 'HeilsCar'
-compiling stm32f10x_it.c...
-..\User\stm32f10x_it.c(230): warning:  #550-D: variable "rec_buf" was set but never used
-linking...
-Program Size: Code=70640 RO-data=4436 RW-data=2380 ZI-data=4940  
-FromELF: creating hex file...
-"..\User\Objects\HeilsCar.axf" - 0 Errors, 1 Warning(s).
+"..\User\Objects\HeilsCar.axf" - 0 Errors, 5 Warning(s).
 Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
-* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
- 
-JLink info:
-------------
-DLL: V4.68a, compiled Apr 12 2013 13:26:50
-Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
-Hardware: V7.00
-S/N : 20090928 
-Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
- 
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: Found SWD-DP with ID 0x1BA01477
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: Found Cortex-M3 r1p1, Little endian.
-ROMTableAddr = 0xE00FF003
- 
-Target info:
-------------
-Device: STM32F103ZE
-VTarget = 3.300V
-State of Pins: 
-TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
- 
-Erase Done.
-Programming Failed!
-Load "..\\User\\Objects\\HeilsCar.axf" 
-Set JLink Project File to "C:\Documents and Settings\flysnow\桌面\HeilsCar1.2\Start\JLinkSettings.ini"
+Set JLink Project File to "E:\HeilsCar\Start\JLinkSettings.ini"
 * JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
  
 JLink info:

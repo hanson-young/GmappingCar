@@ -63,3 +63,4 @@
 ..\user\objects\_task.o: ..\Algorithm\_keep.h
 ..\user\objects\_task.o: ..\User\stm32f10x_it.h
 ..\user\objects\_task.o: ..\Task\../Algorithm/_math.h
+..\user\objects\_task.o: ..\Algorithm\_serial.h
