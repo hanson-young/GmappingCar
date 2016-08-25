@@ -87,9 +87,9 @@ void KeepPoint(void)
 		
 		//为四轮赋速度
 	
-		Speed_X = speed_robot_x;
-		Speed_Y = speed_robot_y;
-		Speed_Rotation = Vout_A;
+//		Speed_X = speed_robot_x;
+//		Speed_Y = speed_robot_y;
+//		Speed_Rotation = Vout_A;
 }
 
 void KeepTest(void)
@@ -113,7 +113,7 @@ void KeepTest(void)
 		if((GetLength(GPS.position,end_point) < 50)&&((GPS.radian-aim_angle*pi/180<0.02)&&(GPS.radian-aim_angle*pi/180>-0.02)))
 		{
 			SPEED_STOP;
-			SetSpeed(0,0,0);
+//			SetSpeed(0,0,0);
 			break;
 		}  
 		delay_ms(15);

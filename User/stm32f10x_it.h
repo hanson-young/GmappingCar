@@ -55,6 +55,20 @@ typedef struct
 	u8 rest[28];
 }Gps_Data;
 
+typedef struct
+{
+	u8  fhOD;
+	u8  fhOA;
+	
+	union fl32_to_u8 speed_x;
+	union fl32_to_u8 speed_y;
+	union fl32_to_u8 speed_rot;
+	
+	u8  ftOA;
+	u8  ftOD;
+	u8 rest[16];
+}PC_Data;
+
 void NMI_Handler(void);
 void HardFault_Handler(void);
 void MemManage_Handler(void);

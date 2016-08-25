@@ -181,7 +181,7 @@ void USART3_IRQHandler(void)
 	{
 	  USART_ClearITPendingBit(USART3,USART_IT_RXNE);
 		rec_buf = USART_ReceiveData(USART3);
-		USART_SendData(USART3,rec_buf);	
+
 		if(rec_buf == 0x0D && startNum[0] == 0 && cnt_flag == 0)
 		{
 			startNum[0] = 1;
@@ -223,16 +223,61 @@ void USART3_IRQHandler(void)
 			cnt_flag = 0;
 		}
   }
-
 }
+
+
+u8 PcstartNum[2] = {0};
+PC_Data PcData;
+u8 pc_cnt_flag = 0;
+u8 pc_cnt = 0;
+u8 pc_rec_cnt = 0;
+u8 pc_tmp_data[4] = {0};
+
 void USART1_IRQHandler(void)
 {
+	u8 array_cnt = 0;
 	uint8_t rec_buf = 0;
-	if(USART_GetITStatus(USART3, USART_IT_RXNE) != RESET)
+
+	if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)
 	{
-		USART_ClearITPendingBit(USART3,USART_IT_RXNE);
-		rec_buf = USART_ReceiveData(USART3);
-	}
+	  USART_ClearITPendingBit(USART1,USART_IT_RXNE);
+		rec_buf = USART_ReceiveData(USART1);
+		
+		if(rec_buf == 0x0D && PcstartNum[0] == 0 && pc_cnt_flag == 0)
+		{
+			PcstartNum[0] = 1;
+			PcstartNum[1] = 1;
+			pc_tmp_data[0] = rec_buf;
+		}
+		if(rec_buf == 0x0A && PcstartNum[0] == 1 && pc_cnt_flag == 0)
+		{
+			if(rec_buf == 0x0A)
+			{
+				PcData.rest[0] = 0x0D;
+				PcData.rest[1] = 0x0A;
+				pc_cnt_flag = 1;
+				pc_rec_cnt = 1;
+			}
+			PcstartNum[1] = 0;
+			PcstartNum[0] = 0;				
+		}
+		if(pc_cnt_flag == 1)
+			PcData.rest[pc_rec_cnt++] = rec_buf;
+		if(pc_rec_cnt == 16 && pc_cnt_flag == 1)
+		{
+			if(PcData.rest[14] == 0x0A && PcData.rest[15] == 0x0D)
+			{
+				pc_cnt++;
+				for(array_cnt = 0; array_cnt < 4; array_cnt++)
+				{
+					PcData.speed_x.data[array_cnt] = PcData.rest[array_cnt + 2];
+					PcData.speed_y.data[array_cnt] = PcData.rest[array_cnt + 6];
+					PcData.speed_rot.data[array_cnt] = PcData.rest[array_cnt + 10];
+				}
+			}
+			pc_cnt_flag = 0;
+		}
+  }
 }
 
 
@@ -257,7 +302,7 @@ void TIM4_IRQHandler(void)
 					//如果距离小于阈值，则停车
 					if(Ultrasonic[iCount].distance <= Ultrasonic[iCount].threthold)
 					{
-						SetSpeed(0,0,0);
+//						SetSpeed(0,0,0);
 						Ultrasonic[iCount].IsStop = 1;
 					}
 				}

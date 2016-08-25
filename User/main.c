@@ -54,7 +54,7 @@ void AutoTask(void *pdata);
 	LCD_ShowString(60,50,200,16,16,"HeilsCar");	
 	LCD_ShowString(60,110,200,16,16,"2016-8-7");
 	delay_ms(1500); 
-	SetSpeed(0,0,100);
+//	SetSpeed(0,0,100);
 	OSInit();   
  	OSTaskCreate(TaskStructs[0].FunTask,
 							(void *)0,

@@ -320,7 +320,42 @@ I (E:\HeilsCar\Algorithm\_lcdio.h)(0x57B04D0D)
 I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
-F (..\Algorithm\_serial.c)(0x57B929D2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Algorithm -I..\Core -I..\Driver -I..\FWLib\inc -I..\FWLib\src -I..\Start -I..\System -I..\Task -I..\Ucosii\Config -I..\Ucosii\Core -I..\Ucosii\Port -I..\User --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\user\objects\_serial.o --omf_browse ..\user\objects\_serial.crf --depend ..\user\objects\_serial.d)
+F (..\Algorithm\_serial.c)(0x57B9598D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Algorithm -I..\Core -I..\Driver -I..\FWLib\inc -I..\FWLib\src -I..\Start -I..\System -I..\Task -I..\Ucosii\Config -I..\Ucosii\Core -I..\Ucosii\Port -I..\User --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\user\objects\_serial.o --omf_browse ..\user\objects\_serial.crf --depend ..\user\objects\_serial.d)
+I (E:\HeilsCar\Algorithm\_serial.h)(0x57B92D50)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (E:\HeilsCar\User\stm32f10x.h)(0x4D783CB4)
+I (E:\HeilsCar\Core\core_cm3.h)(0x4D523B58)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\HeilsCar\User\system_stm32f10x.h)(0x4D783CAA)
+I (E:\HeilsCar\User\stm32f10x_conf.h)(0x5501900C)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (E:\HeilsCar\FWLib\inc\misc.h)(0x4D783BB4)
+I (E:\HeilsCar\Driver\_uart.h)(0x57108364)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (E:\HeilsCar\System\_typedef.h)(0x57B04CB7)
+I (E:\HeilsCar\Driver\_can_database.h)(0x5700E2F4)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7B744)
 F (..\Driver\_24cxx.c)(0x57A68976)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Algorithm -I..\Core -I..\Driver -I..\FWLib\inc -I..\FWLib\src -I..\Start -I..\System -I..\Task -I..\Ucosii\Config -I..\Ucosii\Core -I..\Ucosii\Port -I..\User --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\user\objects\_24cxx.o --omf_browse ..\user\objects\_24cxx.crf --depend ..\user\objects\_24cxx.d)
 I (E:\HeilsCar\Driver\_24cxx.h)(0x57A5D1A2)
 I (E:\HeilsCar\Driver\_myiic.h)(0x57A5D1A2)
@@ -865,7 +900,7 @@ I (E:\HeilsCar\Driver\_io_status.h)(0x57A03C36)
 I (E:\HeilsCar\Driver\_delay.h)(0x57A59C26)
 I (E:\HeilsCar\SYSTEM\sys.h)(0x57A68FB3)
 I (E:\HeilsCar\Driver\_ultrasonic.h)(0x57A691A9)
-F (..\Task\_task.c)(0x57B089BF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Algorithm -I..\Core -I..\Driver -I..\FWLib\inc -I..\FWLib\src -I..\Start -I..\System -I..\Task -I..\Ucosii\Config -I..\Ucosii\Core -I..\Ucosii\Port -I..\User --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\user\objects\_task.o --omf_browse ..\user\objects\_task.crf --depend ..\user\objects\_task.d)
+F (..\Task\_task.c)(0x57B993DC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Algorithm -I..\Core -I..\Driver -I..\FWLib\inc -I..\FWLib\src -I..\Start -I..\System -I..\Task -I..\Ucosii\Config -I..\Ucosii\Core -I..\Ucosii\Port -I..\User --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\user\objects\_task.o --omf_browse ..\user\objects\_task.crf --depend ..\user\objects\_task.d)
 I (E:\HeilsCar\Ucosii\Config\includes.h)(0x5290AD76)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
 I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
@@ -928,6 +963,7 @@ I (E:\HeilsCar\Algorithm\_lcdio.h)(0x57B04D0D)
 I (E:\HeilsCar\Algorithm\_keep.h)(0x57B06478)
 I (E:\HeilsCar\User\stm32f10x_it.h)(0x57B04CB1)
 I (E:\HeilsCar\Algorithm\_math.h)(0x570F3AE0)
+I (E:\HeilsCar\Algorithm\_serial.h)(0x57B92D50)
 F (..\System\sys.c)(0x57A68FA9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Algorithm -I..\Core -I..\Driver -I..\FWLib\inc -I..\FWLib\src -I..\Start -I..\System -I..\Task -I..\Ucosii\Config -I..\Ucosii\Core -I..\Ucosii\Port -I..\User --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\user\objects\sys.o --omf_browse ..\user\objects\sys.crf --depend ..\user\objects\sys.d)
 I (E:\HeilsCar\SYSTEM\sys.h)(0x57A68FB3)
 I (E:\HeilsCar\User\stm32f10x.h)(0x4D783CB4)

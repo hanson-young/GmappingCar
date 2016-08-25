@@ -437,6 +437,11 @@
               <FileType>1</FileType>
               <FilePath>..\Algorithm\_lcdio.c</FilePath>
             </File>
+            <File>
+              <FileName>_serial.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Algorithm\_serial.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

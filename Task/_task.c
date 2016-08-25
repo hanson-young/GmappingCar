@@ -84,6 +84,7 @@ u8 testflag2 = 0;
 u8 testflag3 = 0;
 	u8 PS2_key;
 char SdTPC[64] = {0};
+extern PC_Data PcData;
 void ManualTask(void *para)
 {	 	
 	Ultrasonic[0].ClcUtralData(0);
@@ -101,8 +102,8 @@ void ManualTask(void *para)
     SdTPC[0] = 0;
 //		Speed_X = (Data[5] - 0x80)* 20;
 //		Speed_Y = (0x80 - Data[6])* 20;
-		SetSpeed(Speed_X,Speed_Y,Speed_Rotation);
- 		
+//		SetSpeed(1000,Speed_Y,Speed_Rotation);
+ 		SetSpeed(PcData.speed_x.fl32*10,PcData.speed_y.fl32*10,PcData.speed_rot.fl32*10);
  		Ultrasonic[0].UtralMea(0);
 		Ultrasonic[0].Ultrafilter(0);
  		Ultrasonic[1].UtralMea(1);
@@ -164,7 +165,7 @@ void LcdTask(void *para)
 		if((GetLength(GPS.position,end_point) < 50)&&((GPS.radian-aim_angle*pi/180<0.02)&&(GPS.radian-aim_angle*pi/180>-0.02)))
 		{
 			SPEED_STOP;
-			SetSpeed(0,0,0);
+//			SetSpeed(0,0,0);
 			break;
 		}  
 		delay_ms(15);
